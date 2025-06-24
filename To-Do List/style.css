@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 45px;
+    width: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#save-button{
+    width: 80px;
+}
+
+#input-task{
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+li{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+}
