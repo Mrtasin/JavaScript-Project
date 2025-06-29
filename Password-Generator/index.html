@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="password">
+      <h1>Generate Password</h1>
+
+      <div id="show-result">
+        <h2 id="password-result"></h2>
+        <button id="copy-password"><img id="copy-img" src="copy.png" alt="copy" /></button>
+      </div>
+
+      <input
+        type="range"
+        id="password-size"
+        name="password-size"
+        min="1"
+        max="25"
+        value="8"
+        step="1"
+      />
+      <label for="password-size" id="set-password-value"></label>
+      <br />
+
+      <div class="check-box">
+        <input type="checkbox" name="upper-case" id="upper-case"/>
+        <label for="upper-case">uppercase</label>
+        <br />
+
+        <input type="checkbox" name="digits" id="digits" />
+        <label for="digits">digits</label>
+
+        <input type="checkbox" name="symbol" id="symbol" />
+        <label for="symbol">symbol</label>
+      </div>
+
+      <button id="refersh-button">Refersh</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
